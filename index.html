@@ -69,6 +69,9 @@ dialog{border:1px solid var(--line);border-radius:8px;padding:28px;width:min(440
 @media(max-width:760px){.route-guide>p,.route-guide details p{font-size:14px}.route-guide summary{font-size:14px}.route-stops{font-size:13px}.tea-photo figcaption{max-width:calc(100% - 20px)}}
 @media(max-width:760px){.event-body>p{font-size:14px}.event-body>p.event-note{font-size:12px}.people{font-size:11px}.event-time span{font-size:10px}.event-title .icon-button{width:44px;min-height:44px}.event-title h3{padding-top:9px}.event-details>summary{font-size:12px;min-height:44px}.event-details p{font-size:12px}.hotel-facts details p{font-size:12px}.order-actions .text-button,.order-actions .text-link{font-size:12px}.day-intro>p{font-size:14px}.pretrip-grid p{font-size:13px}}
 @media print{.section-nav,.icon-button,.order-actions,.day-tabs,.map-column,.preparation-top,dialog,.toast,.photo-credit{display:none!important}.wrap,.hero-inner{width:100%}.hero{height:220px}.hero h1{font-size:55px}.hero-caption{display:none}.day-panel[hidden]{display:block!important}.journey,.hotel-booking,.tickets-grid,.budget-layout{display:block}.event{break-inside:avoid}.bookings-band,.prepare-band{background:white}.section-heading{break-after:avoid}.concert-booking{margin-top:30px}a{color:inherit}}
+/* trip ledger */
+.ledger-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:70px}.expense-form{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;padding:22px;background:var(--mist);border:1px solid var(--line);border-radius:4px}.expense-field{min-width:0}.expense-field-wide{grid-column:1/-1}.expense-field label{display:block;font-size:12px;margin-bottom:8px}.expense-field input,.expense-field select{display:block;width:100%;min-height:46px;border:1px solid #b4c6bf;border-radius:4px;background:#fff;color:var(--ink);padding:10px 12px;font-size:16px}.expense-field select[multiple]{height:auto;min-height:112px;padding:5px 8px}.expense-field select[multiple] option{padding:7px 4px}.expense-label{display:block;font-size:12px;margin-bottom:8px}.participant-picker{display:flex;flex-wrap:wrap;gap:8px}.participant-picker label{display:flex;align-items:center;gap:6px;min-height:46px;padding:8px 12px;border:1px solid #b4c6bf;border-radius:4px;background:#fff;font-size:13px;cursor:pointer}.participant-picker input{width:17px;height:17px;accent-color:var(--jade);margin:0}.participant-picker label:has(input:checked){border-color:var(--jade);background:var(--mist)}.participant-dropdown{position:relative}.participant-dropdown>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:46px;padding:10px 12px;border:1px solid #b4c6bf;border-radius:4px;background:#fff;font-size:13px}.participant-dropdown[open]>summary{border-color:var(--jade);border-radius:4px 4px 0 0}.participant-dropdown .participant-picker{display:flex;flex-direction:column;gap:6px;padding:10px;border:1px solid var(--jade);border-top:0;border-radius:0 0 4px 4px;background:#fff}.participant-dropdown .participant-picker label{min-height:36px;border:0;padding:5px 2px;background:transparent}.participant-dropdown .participant-picker label:has(input:checked){background:var(--mist)}.balance-heading{grid-column:1/-1;padding:15px 0 4px;font:11px var(--mono);color:var(--muted)}.field-hint{font-size:10px;color:var(--muted);font-weight:400}.expense-field label .field-hint{margin-left:6px}.expense-field>#expense-participants-hint{display:block;margin-top:6px}.expense-submit{grid-column:1/-1;width:100%;margin-top:2px}.ledger-note{font-size:11px;line-height:1.8;color:var(--muted);margin-top:16px}.ledger-overview{min-width:0}.ledger-totals{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding-bottom:27px;border-bottom:1px solid var(--line)}.ledger-totals>div>span{font-size:11px;color:var(--muted)}.ledger-totals strong{display:block;font:31px/1.5 var(--serif);color:var(--jade);white-space:nowrap}.ledger-totals strong small{font:11px var(--mono);margin-right:5px}.ledger-subheading{display:flex;align-items:baseline;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line);padding:21px 0 13px}.ledger-subheading h3{font:22px var(--serif);font-weight:600}.balance-list{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.balance-item{display:flex;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid var(--line);font-size:12px}.balance-item strong{font:12px var(--mono);font-weight:500;text-align:right}.balance-item strong.receive{color:var(--jade)}.balance-item strong.pay{color:var(--red)}.balance-item strong.even{color:var(--muted)}.settlement-list{font-size:12px}.settlement-list p{padding:13px 0 0;color:var(--muted)}.settlement-list ul{list-style:none;margin:0;padding:0}.settlement-list li{padding:9px 0;display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line)}.settlement-list li strong{font:12px var(--mono);font-weight:500}.expense-records{margin-top:56px}.expense-record-list{border-top:0}.ledger-empty{font-size:12px;color:var(--muted);padding:18px 0}.expense-record{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;padding:17px 0;border-bottom:1px solid var(--line)}.expense-record-main{min-width:0}.expense-record-main strong{display:block;font-size:13px;font-weight:500}.expense-record-main span{display:block;font-size:11px;color:var(--muted);line-height:1.8;margin-top:5px}.expense-record-side{text-align:right;flex-shrink:0}.expense-record-side>strong{display:block;font:14px var(--mono);font-weight:500}.expense-record-side small{display:block;color:var(--muted);font-size:10px;margin-top:4px}.expense-delete{min-height:32px;color:var(--muted);font-size:11px;text-decoration:underline;text-underline-offset:3px}.known-costs{margin-top:38px;border-top:1px solid var(--line)}.known-costs>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:55px;font-size:13px}.known-costs>summary>span{margin-left:auto}.known-costs-content{padding:0 0 12px}.known-costs-content>p{margin-bottom:8px}.known-costs .budget-table{margin-top:10px}
+@media(max-width:760px){.ledger-layout{display:block}.expense-form{display:block;padding:17px}.expense-field{margin-bottom:15px}.expense-field-wide{margin-bottom:15px}.expense-submit{margin-top:4px}.ledger-overview{margin-top:38px}.ledger-totals{gap:18px}.ledger-totals strong{font-size:26px}.balance-list{grid-template-columns:1fr}.expense-records{margin-top:42px}.expense-record{gap:12px}.expense-record-main span{font-size:10px}.known-costs{margin-top:30px}}
 </style>
 </head><body>
 <a class="skip-link" href="#itinerary">跳到行程</a>
@@ -80,7 +83,7 @@ dialog{border:1px solid var(--line);border-radius:8px;padding:28px;width:min(440
     <a class="photo-credit" href="https://www.discoverhongkong.com/eng/place-to-go/travel.guide-victoria-harbour.html" target="_blank" rel="noopener noreferrer">维多利亚港 / 图：香港旅游发展局</a>
   </section>
   <div class="trip-strip wrap"><p><span class="small-label">同行</span> 建建 <span class="dot">·</span> 皇儿 <span class="dot">·</span> 彤彤</p><p><span class="small-label">周六 — 周日</span> 北京 / 深圳 → 香港</p></div>
-  <nav class="section-nav" aria-label="攻略目录"><div class="wrap"><a href="#itinerary" class="active">每日行程</a><a href="#map-section">地图</a><a href="#bookings">住宿与订单</a><a href="#budget">预算</a><a href="#prepare">行前</a></div></nav>
+  <nav class="section-nav" aria-label="攻略目录"><div class="wrap"><a href="#itinerary" class="active">每日行程</a><a href="#map-section">地图</a><a href="#bookings">住宿与订单</a><a href="#budget">记账</a><a href="#prepare">行前</a></div></nav>
   <div class="wrap preparation-top"><details class="checklist" id="checklist"><summary><span><span class="status-dot"></span><strong>出发前，先确认这几件事</strong><span class="summary-note">三人入住 · 银行预约 · 浪茄接船</span></span><span class="checklist-count"><b id="todo-count">0 / 10</b><!-- @license lucide-static v1.60.0 - ISC -->
 <svg aria-hidden="true" focusable="false" class="icon"
   class="lucide lucide-chevron-down"
@@ -1514,22 +1517,32 @@ dialog{border:1px solid var(--line);border-radius:8px;padding:28px;width:min(440
     </div>
     <p class="data-note">我们的航班、住宿和演唱会信息以订单与票面为准。出发前再核对营业时间、交通和场馆通知；还没确定的事项，先留着一起确认。</p>
   </div></section>
-  <section class="wrap budget-section" id="budget"><div class="section-heading"><div><span class="eyebrow">THE KNOWN COSTS</span><h2>预算，先记下确定的。</h2></div><span class="muted small">机票与住宿</span></div><div class="budget-layout"><div class="budget-totals"><div><span>人民币 · 已确认费用</span><strong><small>CNY</small> 2,571.18</strong></div><p>以下金额仅含已确认的机票和住宿，不是全程总预算。<br>其余开销等实际发生后再记。</p></div><div><table class="budget-table"><caption class="sr-only">已知费用明细</caption><thead><tr><th scope="col">项目</th><th scope="col">金额</th></tr></thead><tbody><tr><th scope="row">酒店 · 1 间 1 晚<span>在线付；付款状态待核对</span></th><td>CNY<br><strong>1,338.18</strong></td></tr><tr><th scope="row">去程机票 · UO261<span>2026.10.31 北京 → 香港 · 02:35–06:05</span></th><td>CNY<br><strong>547.00</strong></td></tr><tr><th scope="row">返程机票 · UO260<span>2026.11.01 香港 → 北京 · 22:25–次日 01:40</span></th><td>CNY<br><strong>686.00</strong></td></tr></tbody></table><details class="unknown-budget"><summary>还有 6 项费用待补充<!-- @license lucide-static v1.60.0 - ISC -->
-<svg aria-hidden="true" focusable="false" class="icon"
-  class="lucide lucide-chevron-down"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="m6 9 6 6 6-6" />
-</svg>
-</summary><ul><li>两日餐饮（含周六午饭、小食及西贡海鲜）<span>待补充</span></li><li>机场及市内交通（含山顶 1 号小巴、96R、9A）<span>待补充</span></li><li>浪茄湾 → 西贡接送船 · 3 人待报价<span>待补充</span></li><li>蛋白粉购物（品牌、规格、数量及价格待定）<span>待补充</span></li><li>彤彤深圳来港及返程<span>待补充</span></li><li>其他消费（含待核对的手续费）<span>待补充</span></li></ul></details></div></div></section>
+  <section class="wrap budget-section" id="budget">
+    <div class="section-heading"><div><span class="eyebrow">TRIP LEDGER</span><h2>记账，把每一笔都记下来。</h2></div><span class="muted small">现场开销 · AA 计算</span></div>
+    <div class="ledger-layout">
+      <div class="ledger-entry">
+        <form id="expense-form" class="expense-form">
+          <div class="expense-field"><label for="expense-currency">货币</label><select id="expense-currency"><option value="HKD" selected>港币（HKD）</option><option value="CNY">人民币（CNY）</option></select></div>
+          <div class="expense-field"><label for="expense-amount">消费金额</label><input id="expense-amount" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="0.00" required></div>
+          <div class="expense-field"><label for="expense-payer">付款人</label><select id="expense-payer" required><option value="建建">建建</option><option value="皇儿">皇儿</option><option value="彤彤">彤彤</option></select></div>
+          <div class="expense-field"><span class="expense-label">参与人 <span class="field-hint">可多选</span></span><details class="participant-dropdown"><summary><span id="expense-participants-label">建建、皇儿、彤彤</span><span class="field-hint">选择参与人</span></summary><div id="expense-participants" class="participant-picker" role="group" aria-label="参与人"><label><input type="checkbox" value="建建" checked> 建建</label><label><input type="checkbox" value="皇儿" checked> 皇儿</label><label><input type="checkbox" value="彤彤" checked> 彤彤</label></div></details><span id="expense-participants-hint" class="field-hint">默认三人均分，可取消不参与的人</span></div>
+          <div class="expense-field expense-field-wide"><label for="expense-note">备注</label><input id="expense-note" type="text" maxlength="80" placeholder="例如：餐厅吃饭" required></div>
+          <button class="button-primary expense-submit" type="submit">添加记账</button>
+          <p id="expense-error" class="form-error" role="alert"></p>
+        </form>
+        <p class="ledger-note">每笔开销会按参与人平均分摊。记录只保存在当前浏览器，之后可以继续补记或删除。</p>
+      </div>
+      <div class="ledger-overview">
+        <div class="ledger-totals" aria-live="polite"><div><span>港币记录</span><strong><small>HKD</small> <b id="expense-total-hkd">0.00</b></strong></div><div><span>人民币记录</span><strong><small>CNY</small> <b id="expense-total-cny">0.00</b></strong></div></div>
+        <div class="ledger-balances"><div class="ledger-subheading"><h3>AA 结果</h3><span class="muted small">按付款人与参与人计算</span></div><div id="expense-balances" class="balance-list"></div><div id="expense-settlements" class="settlement-list"></div></div>
+      </div>
+    </div>
+    <div class="ledger-records"><div class="ledger-subheading"><h3>已记开销</h3><span class="muted small" id="expense-record-count">0 笔</span></div><div id="expense-record-list" class="expense-record-list"><p class="ledger-empty">还没有记录，先添加第一笔开销。</p></div></div>
+    <details class="known-costs"><summary>已确认订单金额（机票与住宿）<span class="muted small">仅供核对</span><!-- @license lucide-static v1.60.0 - ISC -->
+<svg aria-hidden="true" focusable="false" class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></svg></summary>
+      <div class="known-costs-content"><p class="muted small">这些订单金额暂未计入 AA，因为付款人和参与人还没有在记账中确认。</p><table class="budget-table"><caption class="sr-only">已知费用明细</caption><thead><tr><th scope="col">项目</th><th scope="col">金额</th></tr></thead><tbody><tr><th scope="row">酒店 · 1 间 1 晚<span>在线付；付款状态待核对</span></th><td>CNY<br><strong>1,338.18</strong></td></tr><tr><th scope="row">去程机票 · UO261<span>2026.10.31 北京 → 香港 · 02:35–06:05</span></th><td>CNY<br><strong>547.00</strong></td></tr><tr><th scope="row">返程机票 · UO260<span>2026.11.01 香港 → 北京 · 22:25–次日 01:40</span></th><td>CNY<br><strong>686.00</strong></td></tr></tbody></table></div>
+    </details>
+  </section>
   <section class="prepare-band" id="prepare"><div class="wrap"><div class="section-heading"><div><span class="eyebrow">BEFORE WE GO</span><h2>出门前，再看一眼。</h2></div><a href="#checklist" class="text-link" id="open-checklist">查看准备清单<!-- @license lucide-static v1.60.0 - ISC -->
 <svg aria-hidden="true" focusable="false" class="icon"
   class="lucide lucide-arrow-right"
@@ -2039,6 +2052,112 @@ if (typeof module !== 'undefined' && module.exports) {
     $('#order-dialog').close();
     if (persisted) notify('订单链接已移除');
   });
+  const expenseForm = $('#expense-form');
+  const expenseCurrency = $('#expense-currency');
+  const expenseAmount = $('#expense-amount');
+  const expensePayer = $('#expense-payer');
+  const expenseParticipants = $('#expense-participants');
+  const expenseNote = $('#expense-note');
+  const expenseError = $('#expense-error');
+  const travelerNames = trip.travelers || ['建建', '皇儿', '彤彤'];
+
+  function updateParticipantSummary() {
+    const names = [...expenseParticipants.querySelectorAll('input:checked')].map(input => input.value);
+    $('#expense-participants-label').textContent = names.length ? names.join('、') : '请选择参与人';
+  }
+  function expenseRecords() {
+    return Array.isArray(saved.expenses) ? saved.expenses : [];
+  }
+  function formatExpenseMoney(currency, cents) {
+    return new Intl.NumberFormat('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(Math.abs(cents) / 100);
+  }
+  function centsFor(record) {
+    return Math.round(Number(record.amount) * 100);
+  }
+  function expenseCalculation(currency) {
+    const paid = Object.fromEntries(travelerNames.map(name => [name, 0]));
+    const owed = Object.fromEntries(travelerNames.map(name => [name, 0]));
+    expenseRecords().filter(record => record.currency === currency).forEach(record => {
+      const participants = Array.isArray(record.participants) ? record.participants.filter(name => travelerNames.includes(name)) : [];
+      if (!participants.length || !travelerNames.includes(record.payer)) return;
+      const total = centsFor(record);
+      paid[record.payer] += total;
+      const share = Math.floor(total / participants.length);
+      const remainder = total - share * participants.length;
+      participants.forEach((name, index) => { owed[name] += share + (index < remainder ? 1 : 0); });
+    });
+    return { paid, owed, net: Object.fromEntries(travelerNames.map(name => [name, paid[name] - owed[name]])) };
+  }
+  function renderExpenseBalances(currency) {
+    const calc = expenseCalculation(currency);
+    return travelerNames.map(name => {
+      const net = calc.net[name];
+      const state = net > 0 ? 'receive' : net < 0 ? 'pay' : 'even';
+      const label = net > 0 ? '应收' : net < 0 ? '应付' : '已结清';
+      const sign = net > 0 ? '+' : net < 0 ? '-' : '';
+      return '<div class="balance-item"><span>' + escapeHTML(name) + '</span><strong class="' + state + '">' + label + ' ' + sign + currency + ' ' + formatExpenseMoney(currency, net) + '</strong></div>';
+    }).join('');
+  }
+  function renderExpenseSettlements(currency) {
+    const calc = expenseCalculation(currency);
+    const creditors = travelerNames.filter(name => calc.net[name] > 0).map(name => ({ name, cents: calc.net[name] })).sort((a, b) => b.cents - a.cents);
+    const debtors = travelerNames.filter(name => calc.net[name] < 0).map(name => ({ name, cents: -calc.net[name] })).sort((a, b) => b.cents - a.cents);
+    const transfers = [];
+    let creditorIndex = 0;
+    let debtorIndex = 0;
+    while (creditorIndex < creditors.length && debtorIndex < debtors.length) {
+      const amount = Math.min(creditors[creditorIndex].cents, debtors[debtorIndex].cents);
+      if (amount > 0) transfers.push('<li><span>' + escapeHTML(debtors[debtorIndex].name) + ' → ' + escapeHTML(creditors[creditorIndex].name) + '</span><strong>' + currency + ' ' + formatExpenseMoney(currency, amount) + '</strong></li>');
+      creditors[creditorIndex].cents -= amount;
+      debtors[debtorIndex].cents -= amount;
+      if (creditors[creditorIndex].cents === 0) creditorIndex++;
+      if (debtors[debtorIndex].cents === 0) debtorIndex++;
+    }
+    if (!transfers.length) return '<p>暂无需要转账的记录。</p>';
+    return '<p>' + currency + ' 建议转账</p><ul>' + transfers.join('') + '</ul>';
+  }
+  function renderExpenses() {
+    const records = expenseRecords();
+    const totals = { HKD: 0, CNY: 0 };
+    records.forEach(record => { if (record.currency in totals) totals[record.currency] += centsFor(record); });
+    $('#expense-total-hkd').textContent = formatExpenseMoney('HKD', totals.HKD);
+    $('#expense-total-cny').textContent = formatExpenseMoney('CNY', totals.CNY);
+    $('#expense-record-count').textContent = records.length + ' 笔';
+    $('#expense-balances').innerHTML = '<div class="balance-heading">港币</div>' + renderExpenseBalances('HKD') + '<div class="balance-heading">人民币</div>' + renderExpenseBalances('CNY');
+    $('#expense-settlements').innerHTML = renderExpenseSettlements('HKD') + renderExpenseSettlements('CNY');
+    if (!records.length) { $('#expense-record-list').innerHTML = '<p class="ledger-empty">还没有记录，先添加第一笔开销。</p>'; return; }
+    $('#expense-record-list').innerHTML = records.map((record, index) => {
+      const participants = Array.isArray(record.participants) ? record.participants : [];
+      const share = participants.length ? centsFor(record) / participants.length : 0;
+      return '<article class="expense-record"><div class="expense-record-main"><strong>' + escapeHTML(record.note) + '</strong><span>' + escapeHTML(record.payer) + ' 付款 · ' + escapeHTML(participants.join('、')) + ' 参与</span></div><div class="expense-record-side"><strong>' + escapeHTML(record.currency) + ' ' + formatExpenseMoney(record.currency, centsFor(record)) + '</strong><small>每人约 ' + escapeHTML(record.currency) + ' ' + formatExpenseMoney(record.currency, Math.round(share)) + '</small><button type="button" class="expense-delete" data-expense-delete="' + index + '">删除</button></div></article>';
+    }).join('');
+    $$('[data-expense-delete]').forEach(button => button.addEventListener('click', () => {
+      const index = Number(button.dataset.expenseDelete);
+      saved.expenses = expenseRecords().filter((_, recordIndex) => recordIndex !== index);
+      const persisted = persist();
+      renderExpenses();
+      if (persisted) notify('记账已删除');
+    }));
+  }
+  expenseParticipants.querySelectorAll('input').forEach(input => input.addEventListener('change', updateParticipantSummary));
+  updateParticipantSummary();
+  expenseForm.addEventListener('submit', event => {
+    event.preventDefault();
+    const amount = Number(expenseAmount.value);
+    const participants = [...expenseParticipants.querySelectorAll('input:checked')].map(input => input.value);
+    if (!Number.isFinite(amount) || amount <= 0) { expenseError.textContent = '请输入大于 0 的消费金额。'; return; }
+    if (!participants.length) { expenseError.textContent = '至少选择一位参与人。'; return; }
+    if (!expenseNote.value.trim()) { expenseError.textContent = '请填写备注，方便之后回忆。'; return; }
+    saved.expenses = [{ currency: expenseCurrency.value, amount: amount.toFixed(2), payer: expensePayer.value, participants, note: expenseNote.value.trim(), createdAt: new Date().toISOString() }, ...expenseRecords()];
+    const persisted = persist();
+    expenseForm.reset();
+    expenseParticipants.querySelectorAll('input').forEach(input => { input.checked = true; });
+    updateParticipantSummary();
+    expenseError.textContent = '';
+    renderExpenses();
+    if (persisted) notify('记账已保存');
+  });
+  renderExpenses();
   renderOrders();
   $$('.section-nav a').forEach(link => link.addEventListener('click', () => {
     $$('.section-nav a').forEach(item => item.classList.toggle('active', item === link));
